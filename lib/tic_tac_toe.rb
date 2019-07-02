@@ -73,7 +73,16 @@ class TicTacToe
       end
   end
   
-  
+  def won?(board)
+    WIN_COMBINATIONS.each do |c|
+    first_pos = @board[c[0]]
+    second_pos = @board[c[1]]
+    third_pos = @board[c[2]]
+    
+    return c if (first_pos == second_pos) && (second_pos == third_pos) && position_taken?(board, c[0])
+    end
+  false
+end
   
   
 end
