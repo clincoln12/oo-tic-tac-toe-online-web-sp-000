@@ -116,7 +116,18 @@ class TicTacToe
     end
   end
   
+  def play
+    while over? == false
+      9.times do
+      if over? == false
+      turn
+    end
   
+  puts "Cat's Game!" if draw?
+  puts "Congratulations #{winner}!" if won?
+  
+    end
+  end
   
   
 end
