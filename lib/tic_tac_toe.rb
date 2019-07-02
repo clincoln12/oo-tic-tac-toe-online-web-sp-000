@@ -112,10 +112,9 @@ class TicTacToe
       return "X" if board[won?(board)[0]] == "X"
       "O"
 
-    "O"
-
+      "O"
+    end
   end
-end
   
   
 end
