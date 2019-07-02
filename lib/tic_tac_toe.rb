@@ -81,8 +81,10 @@ class TicTacToe
     
     return c if (first_pos == second_pos) && (second_pos == third_pos) && position_taken?(c[0])
     end
-  false
-end
+    false
+  end
+  
+  
   
   
 end
