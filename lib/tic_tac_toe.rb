@@ -41,13 +41,16 @@ class TicTacToe
     index.between?(0,8) && !position_taken?(index)
   end
   
-  def turn_count(board)
-  x_count = 0
-  o_count = 0
+  def turn_count
+    x_count = 0
+    o_count = 0
   
-  board.each do |b|
+    @board.each do |b|
     x_count += 1 if b == "X"
-    o
+    o_count += 1 if b == "O"
+    end
+    x_count + o_count
+  end
   
   
 end
