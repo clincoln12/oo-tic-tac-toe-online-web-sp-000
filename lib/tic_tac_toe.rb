@@ -112,7 +112,7 @@ class TicTacToe
       return "X" if @board[won?[0]] == "X"
       "O"
 
-      "O"
+      
     end
   end
   
