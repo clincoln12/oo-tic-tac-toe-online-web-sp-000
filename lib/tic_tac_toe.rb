@@ -79,7 +79,7 @@ class TicTacToe
     second_pos = @board[c[1]]
     third_pos = @board[c[2]]
     
-    return c if (first_pos == second_pos) && (second_pos == third_pos) && position_taken?(board, c[0])
+    return c if (first_pos == second_pos) && (second_pos == third_pos) && position_taken?(c[0])
     end
   false
 end
