@@ -122,11 +122,8 @@ class TicTacToe
       if over? == false
       turn
     end
-  
   puts "Cat's Game!" if draw?
   puts "Congratulations #{winner}!" if won?
-  
-    
   end
   
   
